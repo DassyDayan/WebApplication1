@@ -30,8 +30,8 @@ namespace WebApplication1.Controllers
                     {
                         Status = "Success",
                         Message = "התחברות למסד הנתונים הצליחה",
-                        DatabaseName = connection.DbConnection.Database,
-                        ServerName = connection.DbConnection.DataSource
+                        //DatabaseName = connection.DbConnection.Database,
+                        //ServerName = connection.DbConnection.DataSource
                 });
                 }
                 else
