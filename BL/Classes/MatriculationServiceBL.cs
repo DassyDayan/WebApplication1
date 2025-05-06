@@ -80,6 +80,5 @@ namespace WebApplication1.BL.Classes
             bool success = await _emailService.SendNewEmailAsync(request, datesAndMatriculationName!,region);
             return success;
         }
-
     }
 }
